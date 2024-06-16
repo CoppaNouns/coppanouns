@@ -46,8 +46,8 @@ const faqItems: FaqItem[] = [
       <>
         <p>
         Coppa Nouns would not exist without <ExternalLink href="https://www.footynouns.wtf/">Footy Nouns</ExternalLink>. 
-        Footy Nouns was another football-centered Nouns derivative that launched on Arbitrum in 2021 that recently released the art to the community. 
-        Coppa Nouns brought back the original art from the project, and brought a whole lot more with it. 
+        Footy Nouns was another football-centered Nouns derivative that launched on Arbitrum in 2021 that recently released the art to the community.
+        Coppa Nouns brought back the original art from the project, and brought a whole lot more with it.
 
         While Coppa Nouns is not directly associated with Footy Nouns, we wouldn’t be here today without them.
         </p>

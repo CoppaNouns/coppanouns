@@ -52,7 +52,6 @@ export default function Hero() {
       shallow: true,
     });
   };
-  
 
   return (
     <div className="max-w-[374px] md:max-w-[500px] lg:max-w-6xl lg:w-[1100px] flex flex-col justify-center items-center lg:flex-row lg:justify-start lg:items-start py-[48px] md:py-[64px] gap-8 md:gap-16 px-4 md:px-10">
@@ -96,10 +95,6 @@ export default function Hero() {
         </div>
 
         <h1>Coppa Noun #{parseInt(tokenId, 16)}</h1>
-            <h5>
-              Country:
-                {/* {tokenInfo?.country} */}
-            </h5>
 
         <CurrentAuction
           auctionInfo={auctionInfo}
@@ -223,7 +218,7 @@ const CurrentAuction = ({
           </div>
           <h3>
             Ξ{" "}
-            {formatNumber(utils.formatEther(auctionInfo?.highestBid || "0"), 4)}
+            {formatNumber(utils.formatEther(auctionInfo?.highestBid || "0"), 3)}
           </h3>
         </div>
 
